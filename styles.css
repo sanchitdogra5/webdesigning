@@ -14,7 +14,9 @@ html {
   background-color: white;
   color: #000;
 }
-
+h2{
+  font-size: 16px;
+}
 .left,
 .right {
   padding: 20px;

@@ -4,12 +4,29 @@ html {
   padding: 0;
   height: 100%;
 }
+@font-face {
+    font-family: 'Neue Machina Light';
+    src: url('NeueMachina-Light.otf') format('opentype');
+    /* Add other font properties here if needed */
+}
+
+@font-face {
+    font-family: 'Neue Machina Regular';
+    src: url('NeueMachina-Regular.otf') format('opentype');
+    /* Add other font properties here if needed */
+}
+
+@font-face {
+    font-family: 'Neue Machina Ultrabold';
+    src: url('NeueMachina-Ultrabold.otf') format('opentype');
+    /* Add other font properties here if needed */
+}
 
 .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: "Neue Machina";
+  font-family: "Neue Machina Regular";
   height: 100vh;
   background-color: white;
   color: #000;
